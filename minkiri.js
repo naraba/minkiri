@@ -17,6 +17,6 @@ window.onload = function() {
     filter.style.backgroundColor = "rgba(0,0,0,0.9)";
   }
   sound.loop = true;
-  sound.volume = 0.01;
+  sound.volume = 0.2;
   sound.play();
 };
