@@ -1,0 +1,41 @@
+body {
+  background-image: url(nagato.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#filter {
+  position:absolute;
+  width:100%;
+  height:100%;
+  left:0%;
+  top:0%;
+}
+
+.description {
+  font-size: 3em;
+  font-family: serif;
+  position: absolute;
+	top: 3px;
+	left: 3px;
+  color: #99F;
+}
+
+.material {
+	font-size: 0.7em;
+  font-family: arial, sans-serif;
+	position: absolute;
+	bottom: 7px;
+	right: 7px;
+  color: #DDD;
+}
+
+.material p {
+  margin: 2px;
+}
+
+.material a {
+  color: #AAA;
+}
